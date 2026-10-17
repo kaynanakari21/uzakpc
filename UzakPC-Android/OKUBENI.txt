@@ -1,0 +1,16 @@
+UZAK PC - ANDROID UYGULAMASI (kaynak proje)
+
+APK'YI NASIL ELDE EDERSIN (kolay yol, bilgisayara program kurmadan):
+ 1) github.com'da ucretsiz hesap ac, yeni bir depo (repository) olustur.
+ 2) Bu klasorun ICINDEKI dosyalari (UzakPC-Android klasorunun icini) depoya yukle (main dalina).
+    ".github" klasoru da yuklenmeli.
+ 3) Depoda "Actions" sekmesi -> "APK" calismasi biter (2-4 dk) -> "UzakPC-apk" dosyasini indir.
+ 4) Indirilen zip'in icindeki app-debug.apk'yi telefona at, ac, "bilinmeyen kaynaklara izin ver" de, kur.
+
+ALTERNATIF: Android Studio ile bu klasoru ac -> Build > Build APK(s).
+
+KULLANIM:
+ 1) PC'de UzakPC-PC.zip icindeki kur.bat'i bir kez calistir (PC kurulumu).
+ 2) Uygulamada PC'nin IP adresini yaz (kurulum sayfasinda gorunur), "MAC adresini bilgisayardan al"a bas.
+ 3) "BILGISAYARI AC" = Wake-on-LAN. "BAGLAN VE YONET" = ekran, fare, klavye, kapat/uyku.
+ Wake-on-LAN icin: PC ethernet kablosuyla modeme bagli, BIOS'ta Wake-on-LAN acik olmali.
