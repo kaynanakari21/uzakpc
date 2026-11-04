@@ -9,8 +9,8 @@ android {
         applicationId = "com.uzakpc"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 3
+        versionName = "3.0"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
